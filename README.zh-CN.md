@@ -76,7 +76,19 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 演示视频
 
-[打开演示视频](demo/demo-video.mov)
+<video
+  controls
+  preload="metadata"
+  width="720"
+  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode.png"
+>
+  <source
+    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
+    type="video/quicktime"
+  />
+</video>
+
+[直接打开演示视频](demo/demo-video.mov)
 
 ## 安装说明
 
@@ -85,6 +97,11 @@ Aigeon 当前只会在以下状态播放提示音：
 - `DMG`
 - `.app`
 - `.tar.gz`
+
+下载链接：
+
+- [下载 DMG 安装包](Aigeon_0.1.0_x64.dmg)
+- [下载 TAR.GZ 应用包](Aigeon_0.1.0_x64.tar.gz)
 
 这个版本目前没有签名，也没有做 notarization，所以首次打开时 macOS 可能会阻止启动。
 

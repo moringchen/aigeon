@@ -76,7 +76,19 @@ Current host-terminal support:
 
 ### Demo Video
 
-[Open demo video](demo/demo-video.mov)
+<video
+  controls
+  preload="metadata"
+  width="720"
+  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode.png"
+>
+  <source
+    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
+    type="video/quicktime"
+  />
+</video>
+
+[Open demo video directly](demo/demo-video.mov)
 
 ## Install
 
@@ -85,6 +97,11 @@ This release folder includes:
 - `DMG`
 - `.app`
 - `.tar.gz`
+
+Download links:
+
+- [Download DMG installer](Aigeon_0.1.0_x64.dmg)
+- [Download TAR.GZ app archive](Aigeon_0.1.0_x64.tar.gz)
 
 The app is currently unsigned and not notarized. On first launch, macOS may block it.
 
