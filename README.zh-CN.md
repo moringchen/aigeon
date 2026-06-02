@@ -78,7 +78,7 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 演示 GIF
 
-<img src="demo/yanshi.gif" alt="Aigeon 演示 GIF" width="700" />
+<img src="demo/demo-video.gif" alt="Aigeon 演示 GIF" width="700" />
 
 ## 安装说明
 
