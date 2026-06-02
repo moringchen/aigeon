@@ -68,11 +68,11 @@ Current host-terminal support:
 
 ### Standard Mode Screenshot
 
-![Standard mode screenshot](demo/standard-mode.png)
+<img src="demo/standard-mode.png" alt="Standard mode screenshot" width="297" />
 
 ### Simple Mode Screenshot
 
-![Simple mode screenshot](demo/simple-mode.png)
+<img src="demo/simple-mode.png" alt="Simple mode screenshot" width="189" />
 
 ### Demo Video
 

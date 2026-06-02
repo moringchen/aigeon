@@ -68,11 +68,11 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 标准模式截图
 
-![标准模式截图](demo/standard-mode.png)
+<img src="demo/standard-mode.png" alt="标准模式截图" width="297" />
 
 ### 简单模式截图
 
-![简单模式截图](demo/simple-mode.png)
+<img src="demo/simple-mode.png" alt="简单模式截图" width="189" />
 
 ### 演示视频
 
