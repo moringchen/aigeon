@@ -1,5 +1,7 @@
 [中文说明](README.zh-CN.md)
 
+GitHub Pages player: <https://moringchen.github.io/aigeon/>
+
 # Aigeon
 
 Aigeon is a lightweight macOS overlay for watching active `Claude Code` and `Codex` tasks without keeping every terminal frontmost.
@@ -76,22 +78,10 @@ Current host-terminal support:
 
 ### Demo Video
 
-<video
-  controls
-  autoplay
-  muted
-  playsinline
-  preload="metadata"
-  width="720"
-  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode-full-20260602.png"
->
-  <source
-    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
-    type="video/quicktime"
-  />
-</video>
+GitHub README itself does not reliably render a real video player window. For direct in-page playback, open:
 
-[Open demo video in browser](demo/demo-video.mov)
+- <https://moringchen.github.io/aigeon/>
+- [Open demo video in browser](demo/demo-video.mov)
 
 ## Install
 
@@ -106,7 +96,7 @@ Download links:
 - [Download DMG installer](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
 - [Download TAR.GZ app archive](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
 
-The links above point to direct file URLs instead of repository preview pages.
+The links above point to direct file URLs instead of repository preview pages. The GitHub Pages player also uses direct file download buttons.
 
 The app is currently unsigned and not notarized. On first launch, macOS may block it.
 

@@ -1,5 +1,7 @@
 [English](README.md)
 
+GitHub Pages 播放页：<https://moringchen.github.io/aigeon/index.zh-CN.html>
+
 # Aigeon
 
 Aigeon 是一个轻量的 macOS 悬浮层，用来观察当前 `Claude Code` 和 `Codex` 任务状态，不需要把所有终端一直放在最前面。
@@ -75,23 +77,11 @@ Aigeon 当前只会在以下状态播放提示音：
 <img src="demo/simple-mode-full-20260602.png" alt="简单模式截图" width="700" />
 
 ### 演示视频
-[![Demo](demo/standard-mode-full-20260602.png)](https://github.com/moringchen/aigeon/raw/main/demo/demo-video.mp4)
-<video
-  controls
-  autoplay
-  muted
-  playsinline
-  preload="metadata"
-  width="720"
-  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode-full-20260602.png"
->
-  <source
-    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
-    type="video/quicktime"
-  />
-</video>
 
-[在浏览器中打开演示视频](demo/demo-video.mov)
+GitHub README 页面本身不能稳定显示真正的视频播放窗口。要直接在页面里播放，请打开：
+
+- <https://moringchen.github.io/aigeon/index.zh-CN.html>
+- [在浏览器中打开演示视频](demo/demo-video.mov)
 
 ## 安装说明
 
@@ -106,7 +96,7 @@ Aigeon 当前只会在以下状态播放提示音：
 - [下载 DMG 安装包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
 - [下载 TAR.GZ 应用包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
 
-上面的链接已经改成直达文件地址，不再先进入仓库文件预览页。
+上面的链接已经改成直达文件地址，不再先进入仓库文件预览页；GitHub Pages 播放页里的下载按钮也会直接下载。
 
 这个版本目前没有签名，也没有做 notarization，所以首次打开时 macOS 可能会阻止启动。
 
