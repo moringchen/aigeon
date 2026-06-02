@@ -1,6 +1,6 @@
 [中文说明](README.zh-CN.md)
 
-# Aigeon
+# <img src="demo/aigeon-icon.png" alt="Aigeon icon" width="36" /> Aigeon
 
 Aigeon is a lightweight macOS overlay for watching active `Claude Code` and `Codex` tasks without keeping every terminal frontmost.
 
