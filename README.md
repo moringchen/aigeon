@@ -1,6 +1,8 @@
 [中文说明](README.zh-CN.md)
 
-GitHub Pages player: <https://moringchen.github.io/aigeon/>
+Playable video page:
+- Use GitHub Pages: <https://moringchen.github.io/aigeon/>
+- Do not open `github.com/.../blob/.../index.html`, because that view shows source code instead of the real page
 
 # Aigeon
 
@@ -78,7 +80,7 @@ Current host-terminal support:
 
 ### Demo Video
 
-GitHub README itself does not reliably render a real video player window. For direct in-page playback, open:
+GitHub README itself does not reliably render a real video player window. For direct in-page playback, open the GitHub Pages URL:
 
 - <https://moringchen.github.io/aigeon/>
 - [Open demo video in browser](demo/demo-video.mov)
