@@ -1,7 +1,5 @@
 [English](README.md)
 
-交互页面：[index.zh-CN.html](index.zh-CN.html)
-
 # Aigeon
 
 Aigeon 是一个轻量的 macOS 悬浮层，用来观察当前 `Claude Code` 和 `Codex` 任务状态，不需要把所有终端一直放在最前面。
@@ -78,10 +76,22 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 演示视频
 
-GitHub README 页面本身通常不能稳定显示页内视频播放器。要直接在页面里播放，请打开交互页面：
+<video
+  controls
+  autoplay
+  muted
+  playsinline
+  preload="metadata"
+  width="720"
+  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode-full-20260602.png"
+>
+  <source
+    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
+    type="video/quicktime"
+  />
+</video>
 
-- [打开中文交互页](index.zh-CN.html)
-- [在浏览器中打开演示视频](demo/demo-video.mov)
+[在浏览器中打开演示视频](demo/demo-video.mov)
 
 ## 安装说明
 
@@ -96,7 +106,7 @@ GitHub README 页面本身通常不能稳定显示页内视频播放器。要直
 - [下载 DMG 安装包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
 - [下载 TAR.GZ 应用包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
 
-上面的链接已经改成直达文件地址，不再先进入仓库文件预览页；[index.zh-CN.html](index.zh-CN.html) 里的下载按钮也会指向同样的直链。
+上面的链接已经改成直达文件地址，不再先进入仓库文件预览页。
 
 这个版本目前没有签名，也没有做 notarization，所以首次打开时 macOS 可能会阻止启动。
 
