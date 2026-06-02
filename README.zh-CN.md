@@ -1,5 +1,7 @@
 [English](README.md)
 
+交互页面：[index.zh-CN.html](index.zh-CN.html)
+
 # Aigeon
 
 Aigeon 是一个轻量的 macOS 悬浮层，用来观察当前 `Claude Code` 和 `Codex` 任务状态，不需要把所有终端一直放在最前面。
@@ -76,11 +78,10 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 演示视频
 
-<a href="demo/demo-video.mov">
-  <img src="demo/standard-mode-full-20260602.png" alt="点击打开演示视频" width="600" />
-</a>
+GitHub README 页面本身通常不能稳定显示页内视频播放器。要直接在页面里播放，请打开交互页面：
 
-[在浏览器中打开演示视频](demo/demo-video.mov)
+- [打开中文交互页](index.zh-CN.html)
+- [在浏览器中打开演示视频](demo/demo-video.mov)
 
 ## 安装说明
 

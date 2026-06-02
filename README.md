@@ -1,5 +1,7 @@
 [中文说明](README.zh-CN.md)
 
+Interactive page: [index.html](index.html)
+
 # Aigeon
 
 Aigeon is a lightweight macOS overlay for watching active `Claude Code` and `Codex` tasks without keeping every terminal frontmost.
@@ -76,11 +78,10 @@ Current host-terminal support:
 
 ### Demo Video
 
-<a href="demo/demo-video.mov">
-  <img src="demo/standard-mode-full-20260602.png" alt="Click to open the demo video" width="480" />
-</a>
+GitHub README does not reliably render an in-page video player. Use the interactive page for direct playback:
 
-[Open demo video in browser](demo/demo-video.mov)
+- [Open interactive demo page](index.html)
+- [Open demo video in browser](demo/demo-video.mov)
 
 ## Install
 
