@@ -83,7 +83,7 @@ Aigeon 当前只会在以下状态播放提示音：
 GitHub README 页面本身不能稳定显示真正的视频播放窗口。要直接在页面里播放，请打开 GitHub Pages 地址：
 
 - <https://moringchen.github.io/aigeon/index.zh-CN.html>
-- [在浏览器中打开演示视频](demo/demo-video.mov)
+- [在浏览器中打开演示视频](demo/demo-video.mp4)
 
 ## 安装说明
 

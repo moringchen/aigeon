@@ -83,7 +83,7 @@ Current host-terminal support:
 GitHub README itself does not reliably render a real video player window. For direct in-page playback, open the GitHub Pages URL:
 
 - <https://moringchen.github.io/aigeon/>
-- [Open demo video in browser](demo/demo-video.mov)
+- [Open demo video in browser](demo/demo-video.mp4)
 
 ## Install
 
