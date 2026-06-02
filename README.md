@@ -82,10 +82,12 @@ Current host-terminal support:
 
 ### Demo Video
 
-GitHub README itself does not reliably render a real video player window. For direct in-page playback, open the GitHub Pages URL:
+GitHub README itself does not reliably render a real video player window from repository files. For direct in-page playback, open the GitHub Pages URL:
 
 - <https://moringchen.github.io/aigeon/>
-- [Open demo video in browser](demo/demo-video.mp4)
+- [Open demo video in browser](demo/yanshi.mov)
+
+If you want a real inline video player on the `github.com` README page, the video must be uploaded as a GitHub issue or PR attachment first, then embedded with that generated attachment URL.
 
 ## Install
 
