@@ -80,14 +80,9 @@ Current host-terminal support:
 
 <img src="demo/simple-mode-full-20260602.png" alt="Simple mode screenshot" width="700" />
 
-### Demo Video
+### Demo GIF
 
-GitHub README itself does not reliably render a real video player window from repository files. For direct in-page playback, open the GitHub Pages URL:
-
-- <https://moringchen.github.io/aigeon/>
-- [Open demo video in browser](demo/yanshi.mov)
-
-If you want a real inline video player on the `github.com` README page, the video must be uploaded as a GitHub issue or PR attachment first, then embedded with that generated attachment URL.
+<img src="demo/yanshi.gif" alt="Aigeon demo gif" width="700" />
 
 ## Install
 
