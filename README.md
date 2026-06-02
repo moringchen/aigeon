@@ -68,27 +68,19 @@ Current host-terminal support:
 
 ### Standard Mode Screenshot
 
-<img src="demo/standard-mode.png" alt="Standard mode screenshot" width="297" />
+<img src="demo/standard-mode-full-20260602.png" alt="Standard mode screenshot" width="297" />
 
 ### Simple Mode Screenshot
 
-<img src="demo/simple-mode.png" alt="Simple mode screenshot" width="189" />
+<img src="demo/simple-mode-full-20260602.png" alt="Simple mode screenshot" width="189" />
 
 ### Demo Video
 
-<video
-  controls
-  preload="metadata"
-  width="720"
-  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode.png"
->
-  <source
-    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
-    type="video/quicktime"
-  />
-</video>
+<a href="demo/demo-video.mov">
+  <img src="demo/standard-mode-full-20260602.png" alt="Click to open the demo video" width="480" />
+</a>
 
-[Open demo video directly](demo/demo-video.mov)
+[Open demo video in browser](demo/demo-video.mov)
 
 ## Install
 

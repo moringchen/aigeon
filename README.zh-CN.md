@@ -68,27 +68,19 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 标准模式截图
 
-<img src="demo/standard-mode.png" alt="标准模式截图" width="297" />
+<img src="demo/standard-mode-full-20260602.png" alt="标准模式截图" width="297" />
 
 ### 简单模式截图
 
-<img src="demo/simple-mode.png" alt="简单模式截图" width="189" />
+<img src="demo/simple-mode-full-20260602.png" alt="简单模式截图" width="189" />
 
 ### 演示视频
 
-<video
-  controls
-  preload="metadata"
-  width="720"
-  poster="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/standard-mode.png"
->
-  <source
-    src="https://raw.githubusercontent.com/moringchen/aigeon/main/demo/demo-video.mov"
-    type="video/quicktime"
-  />
-</video>
+<a href="demo/demo-video.mov">
+  <img src="demo/standard-mode-full-20260602.png" alt="点击打开演示视频" width="480" />
+</a>
 
-[直接打开演示视频](demo/demo-video.mov)
+[在浏览器中打开演示视频](demo/demo-video.mov)
 
 ## 安装说明
 
