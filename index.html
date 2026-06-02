@@ -159,7 +159,17 @@
 
       <section class="card">
         <h2>Demo Video</h2>
-        <video controls preload="metadata" poster="./demo/standard-mode-full-20260602.png">
+        <p class="muted">
+          The demo video plays directly inside this page. If your browser blocks autoplay, press play here without leaving the page.
+        </p>
+        <video
+          controls
+          autoplay
+          muted
+          playsinline
+          preload="metadata"
+          poster="./demo/standard-mode-full-20260602.png"
+        >
           <source src="./demo/demo-video.mov" type="video/quicktime" />
         </video>
       </section>

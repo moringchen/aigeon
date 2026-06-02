@@ -158,7 +158,17 @@
 
       <section class="card">
         <h2>演示视频</h2>
-        <video controls preload="metadata" poster="./demo/standard-mode-full-20260602.png">
+        <p class="muted">
+          演示视频会直接在当前页面里播放。如果浏览器拦截了自动播放，直接在这里点播放即可，不需要跳转。
+        </p>
+        <video
+          controls
+          autoplay
+          muted
+          playsinline
+          preload="metadata"
+          poster="./demo/standard-mode-full-20260602.png"
+        >
           <source src="./demo/demo-video.mov" type="video/quicktime" />
         </video>
       </section>
