@@ -75,7 +75,7 @@ Aigeon 当前只会在以下状态播放提示音：
 <img src="demo/simple-mode-full-20260602.png" alt="简单模式截图" width="700" />
 
 ### 演示视频
-
+[![Demo](demo/standard-mode-full-20260602.png)](https://github.com/moringchen/aigeon/raw/main/demo/demo-video.mp4)
 <video
   controls
   autoplay
