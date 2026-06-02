@@ -68,16 +68,16 @@ Aigeon 当前只会在以下状态播放提示音：
 
 ### 标准模式截图
 
-<img src="demo/standard-mode-full-20260602.png" alt="标准模式截图" width="297" />
+<img src="demo/standard-mode-full-20260602.png" alt="标准模式截图" width="700" />
 
 ### 简单模式截图
 
-<img src="demo/simple-mode-full-20260602.png" alt="简单模式截图" width="189" />
+<img src="demo/simple-mode-full-20260602.png" alt="简单模式截图" width="700" />
 
 ### 演示视频
 
 <a href="demo/demo-video.mov">
-  <img src="demo/standard-mode-full-20260602.png" alt="点击打开演示视频" width="480" />
+  <img src="demo/standard-mode-full-20260602.png" alt="点击打开演示视频" width="600" />
 </a>
 
 [在浏览器中打开演示视频](demo/demo-video.mov)
