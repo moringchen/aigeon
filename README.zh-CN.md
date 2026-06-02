@@ -96,6 +96,8 @@ GitHub README 页面本身通常不能稳定显示页内视频播放器。要直
 - [下载 DMG 安装包](Aigeon_0.1.0_x64.dmg)
 - [下载 TAR.GZ 应用包](Aigeon_0.1.0_x64.tar.gz)
 
+如果你希望浏览器直接开始下载而不是先打开文件预览页，请使用 [index.zh-CN.html](index.zh-CN.html) 里的下载按钮。
+
 这个版本目前没有签名，也没有做 notarization，所以首次打开时 macOS 可能会阻止启动。
 
 如果 macOS 阻止打开：

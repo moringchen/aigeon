@@ -96,6 +96,8 @@ Download links:
 - [Download DMG installer](Aigeon_0.1.0_x64.dmg)
 - [Download TAR.GZ app archive](Aigeon_0.1.0_x64.tar.gz)
 
+For direct browser download without opening the file preview page, use the buttons on [index.html](index.html).
+
 The app is currently unsigned and not notarized. On first launch, macOS may block it.
 
 If macOS blocks the app:
