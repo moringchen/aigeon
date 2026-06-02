@@ -8,6 +8,8 @@
 	<string>Aigeon</string>
 	<key>CFBundleExecutable</key>
 	<string>aigeon</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.aigeon</string>
 	<key>CFBundleInfoDictionaryVersion</key>

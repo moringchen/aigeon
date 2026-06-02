@@ -8,6 +8,8 @@ Playable video page:
 
 Aigeon is a lightweight macOS overlay for watching active `Claude Code` and `Codex` tasks without keeping every terminal frontmost.
 
+Author: `MoringChen`
+
 ## What It Does
 
 - Currently supports monitoring tasks from:

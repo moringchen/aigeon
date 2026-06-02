@@ -8,6 +8,8 @@
 
 Aigeon 是一个轻量的 macOS 悬浮层，用来观察当前 `Claude Code` 和 `Codex` 任务状态，不需要把所有终端一直放在最前面。
 
+作者：`MoringChen`
+
 ## 功能概览
 
 - 当前支持监控的任务来源：
