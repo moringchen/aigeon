@@ -1,9 +1,5 @@
 [中文说明](README.zh-CN.md)
 
-Playable video page:
-- Use GitHub Pages: <https://moringchen.github.io/aigeon/>
-- Do not open `github.com/.../blob/.../index.html`, because that view shows source code instead of the real page
-
 # Aigeon
 
 Aigeon is a lightweight macOS overlay for watching active `Claude Code` and `Codex` tasks without keeping every terminal frontmost.

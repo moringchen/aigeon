@@ -1,9 +1,5 @@
 [English](README.md)
 
-可直接播放的视频页面：
-- 请打开 GitHub Pages：<https://moringchen.github.io/aigeon/index.zh-CN.html>
-- 不要打开 `github.com/.../blob/.../index.html`，那个页面只会显示源码，不会渲染真实播放器
-
 # Aigeon
 
 Aigeon 是一个轻量的 macOS 悬浮层，用来观察当前 `Claude Code` 和 `Codex` 任务状态，不需要把所有终端一直放在最前面。
