@@ -102,6 +102,8 @@ Download links:
 - [Download DMG installer](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
 - [Download TAR.GZ app archive](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
 
+Open the DMG and drag `Aigeon.app` into `Applications`.
+
 The links above point to direct file URLs instead of repository preview pages. The GitHub Pages player also uses direct file download buttons.
 
 The app is currently unsigned and not notarized. On first launch, macOS may block it.

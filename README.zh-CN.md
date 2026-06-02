@@ -102,6 +102,8 @@ GitHub README 页面本身不能稳定从仓库文件渲染真正的视频播放
 - [下载 DMG 安装包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
 - [下载 TAR.GZ 应用包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
 
+打开 DMG 后，将 `Aigeon.app` 拖动到 `Applications`。
+
 上面的链接已经改成直达文件地址，不再先进入仓库文件预览页；GitHub Pages 播放页里的下载按钮也会直接下载。
 
 这个版本目前没有签名，也没有做 notarization，所以首次打开时 macOS 可能会阻止启动。
