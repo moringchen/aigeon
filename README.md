@@ -70,11 +70,11 @@ Current host-terminal support:
 
 ### Standard Mode Screenshot
 
-<img src="demo/standard-mode-full-20260602.png" alt="Standard mode screenshot" width="700" />
+<img src="demo/stand.png" alt="Standard mode screenshot" width="700" />
 
 ### Simple Mode Screenshot
 
-<img src="demo/simple-mode-full-20260602.png" alt="Simple mode screenshot" width="700" />
+<img src="demo/sinple.png" alt="Simple mode screenshot" width="700" />
 
 ### Demo GIF
 
