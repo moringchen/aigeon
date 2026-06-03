@@ -78,7 +78,7 @@ Current host-terminal support:
 
 ### Demo GIF
 
-<img src="demo/demo-video.gif" alt="Aigeon demo gif" width="700" />
+<img src="demo/endemo.gif" alt="Aigeon demo gif" width="700" />
 
 ## Install
 
