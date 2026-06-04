@@ -6,22 +6,13 @@ Aigeon is a macOS overlay for watching active `Claude Code` and `Codex` task sta
 
 ## Download
 
-- [Download DMG installer](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
-- [Download TAR.GZ app archive](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
+- [Download DMG installer](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.0.2_x64.dmg)
 
 ## Install
 
-### DMG
-
-1. Download `Aigeon_0.1.0_x64.dmg`
+1. Download `Aigeon_0.0.2_x64.dmg`
 2. Open the DMG
 3. Drag `Aigeon.app` into `Applications`
-
-### TAR.GZ
-
-1. Download `Aigeon_0.1.0_x64.tar.gz`
-2. Extract `Aigeon.app`
-3. Move `Aigeon.app` into `Applications`
 
 ## Usage
 

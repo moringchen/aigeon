@@ -6,22 +6,13 @@ Aigeon 是一个 macOS 悬浮层，用来查看当前 `Claude Code` 和 `Codex` 
 
 ## 下载
 
-- [下载 DMG 安装包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
-- [下载 TAR.GZ 应用包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
+- [下载 DMG 安装包](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.0.2_x64.dmg)
 
 ## 安装
 
-### DMG
-
-1. 下载 `Aigeon_0.1.0_x64.dmg`
+1. 下载 `Aigeon_0.0.2_x64.dmg`
 2. 打开 DMG
 3. 将 `Aigeon.app` 拖到 `Applications`
-
-### TAR.GZ
-
-1. 下载 `Aigeon_0.1.0_x64.tar.gz`
-2. 解压得到 `Aigeon.app`
-3. 将 `Aigeon.app` 移动到 `Applications`
 
 ## 使用
 
