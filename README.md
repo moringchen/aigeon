@@ -1,103 +1,39 @@
 [中文说明](README.zh-CN.md)
 
-# <img src="demo/aigeon-icon.png" alt="Aigeon icon" width="36" /> Aigeon
+# Aigeon
 
-Aigeon is a lightweight macOS overlay for watching active `Claude Code` and `Codex` tasks without keeping every terminal frontmost.
+Aigeon is a macOS overlay for watching active `Claude Code` and `Codex` task status.
 
-Author: `MoringChen`
-
-## What It Does
-
-- Currently supports monitoring tasks from:
-  - `Claude Code`
-  - `Codex`
-- Tracks stable task state across `Claude Code` and `Codex`
-- Shows the latest active task in a compact floating overlay
-- Uses provider badges:
-  - `Cl` for Claude Code
-  - `Cx` for Codex
-- Lets you click into the active task list and jump back to the matching terminal
-
-## Modes
-
-### 1. Standard Mode
-
-- Shows the latest task summary plus its status icon
-- Single-click the overlay bar to open the current task list
-- Click a task row to focus the matching host terminal window
-- Double-click the overlay bar to switch to Simple Mode
-
-### 2. Simple Mode
-
-- Shows compact counters for all stable task states
-- Double-click the capsule to switch back to Standard Mode
-
-## Stable Statuses
-
-Aigeon currently normalizes task progress into four stable states:
-
-- `booting`: the task/session has started but is not ready yet
-- `waiting`: the agent is waiting for your reply or approval
-- `running`: the agent is actively working
-- `completed`: the task reached a finished terminal state
-
-## Task Sounds
-
-Aigeon currently plays sounds for:
-
-- `waiting`
-- `completed`
-
-It does not play sounds for:
-
-- `booting`
-- `running`
-
-## Terminal Focus Jump
-
-In Standard Mode:
-
-1. Single-click the overlay bar to open the task list
-2. Click a task row
-3. Aigeon tries to focus the matching host terminal
-
-Current host-terminal support:
-
-- macOS `Terminal`
-- `Ghostty`
-
-## Demo
-
-### Standard Mode Screenshot
-
-<img src="demo/stand.png" alt="Standard mode screenshot" width="700" />
-
-### Simple Mode Screenshot
-
-<img src="demo/sinple.png" alt="Simple mode screenshot" width="700" />
-
-### Demo GIF
-
-<img src="demo/endemo.gif" alt="Aigeon demo gif" width="700" />
-
-## Install
-
-This release folder includes:
-
-- `DMG`
-- `.app`
-- `.tar.gz`
-
-Download links:
+## Download
 
 - [Download DMG installer](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.dmg)
 - [Download TAR.GZ app archive](https://github.com/moringchen/aigeon/raw/main/Aigeon_0.1.0_x64.tar.gz)
 
-Open the DMG and drag `Aigeon.app` into `Applications`.
+## Install
 
-The links above point to direct file URLs instead of repository preview pages. The GitHub Pages player also uses direct file download buttons.
+### DMG
 
-The app is currently unsigned and not notarized. On first launch, macOS may block it.
+1. Download `Aigeon_0.1.0_x64.dmg`
+2. Open the DMG
+3. Drag `Aigeon.app` into `Applications`
+
+### TAR.GZ
+
+1. Download `Aigeon_0.1.0_x64.tar.gz`
+2. Extract `Aigeon.app`
+3. Move `Aigeon.app` into `Applications`
+
+## Usage
+
+1. Launch `Aigeon.app`
+2. Watch the current task status in the overlay
+3. Click the overlay to open the task list
+4. Click a task row to jump back to the matching terminal window
+5. Double-click the overlay to switch between Standard Mode and Simple Mode
+
+## First Launch Warning
+
+This build is unsigned and not notarized, so macOS may block it on first launch.
 
 If macOS blocks the app:
 
@@ -105,8 +41,3 @@ If macOS blocks the app:
 2. Open `System Settings > Privacy & Security`
 3. Allow the blocked app
 4. Launch it again
-
-## Notes
-
-- This public release package does not include source code
-- The app behavior documented here reflects the current build only

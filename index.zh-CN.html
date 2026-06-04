@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aigeon 演示页</title>
+    <title>Aigeon 下载</title>
     <style>
       :root {
         color-scheme: light;
-        --bg: #f5f7fb;
+        --bg: #f4f6fb;
         --card: #ffffff;
-        --text: #172033;
-        --muted: #5f6c89;
-        --line: #d9e0ee;
-        --accent: #275df5;
+        --text: #182033;
+        --muted: #5b6782;
+        --line: #d7deeb;
+        --accent: #2456e6;
       }
 
       * {
@@ -22,53 +22,30 @@
       body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        background: linear-gradient(180deg, #eef3ff 0%, var(--bg) 100%);
+        background: linear-gradient(180deg, #edf2ff 0%, var(--bg) 100%);
         color: var(--text);
       }
 
-      .page {
-        max-width: 960px;
+      main {
+        max-width: 760px;
         margin: 0 auto;
         padding: 40px 20px 64px;
       }
 
-      .hero,
-      .card {
+      section {
         background: var(--card);
         border: 1px solid var(--line);
         border-radius: 20px;
-        box-shadow: 0 18px 50px rgba(28, 42, 78, 0.08);
-      }
-
-      .hero {
+        box-shadow: 0 18px 48px rgba(28, 42, 78, 0.08);
         padding: 28px;
-        margin-bottom: 24px;
-      }
-
-      .card {
-        padding: 24px;
         margin-bottom: 20px;
       }
 
       h1,
       h2,
-      h3,
-      p {
-        margin-top: 0;
-      }
-
-      h1 {
-        font-size: 34px;
-        margin-bottom: 10px;
-      }
-
-      h2 {
-        font-size: 24px;
-        margin-bottom: 14px;
-      }
-
       p,
       li {
+        margin-top: 0;
         line-height: 1.6;
       }
 
@@ -80,7 +57,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 12px;
-        margin-top: 18px;
+        margin: 20px 0 8px;
       }
 
       .button {
@@ -90,7 +67,7 @@
         padding: 10px 16px;
         border-radius: 999px;
         border: 1px solid var(--accent);
-        color: white;
+        color: #fff;
         background: var(--accent);
         text-decoration: none;
         font-weight: 600;
@@ -101,64 +78,52 @@
         background: transparent;
       }
 
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 18px;
-      }
-
-      img,
-      video {
-        display: block;
-        width: 100%;
-        height: auto;
-        border-radius: 16px;
-        border: 1px solid var(--line);
-        background: #dde6fb;
-      }
-
-      .lang {
-        margin-top: 14px;
+      ol,
+      ul {
+        padding-left: 20px;
+        margin-bottom: 0;
       }
     </style>
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
+    <main>
+      <section>
         <h1>Aigeon</h1>
-        <p class="muted">
-          一个轻量的 macOS 悬浮层，用来监控当前 Claude Code 和 Codex 任务，并提供稳定的页内视频播放页。
-        </p>
-        <p class="muted">作者：<strong>MoringChen</strong></p>
+        <p class="muted">macOS 悬浮层，用来查看当前 Claude Code 和 Codex 任务状态。</p>
         <div class="links">
           <a class="button" href="./Aigeon_0.1.0_x64.dmg" download="Aigeon_0.1.0_x64.dmg">下载 DMG</a>
           <a class="button secondary" href="./Aigeon_0.1.0_x64.tar.gz" download="Aigeon_0.1.0_x64.tar.gz">下载 TAR.GZ</a>
-          <a class="button secondary" href="./README.zh-CN.md">打开说明</a>
+          <a class="button secondary" href="./README.zh-CN.md">使用说明</a>
         </div>
-        <p class="lang">
-          English: <a href="./index.html">index.html</a>
-        </p>
+        <p class="muted">English: <a href="./index.html">index.html</a></p>
       </section>
 
-      <section class="card">
-        <h2>演示视频</h2>
-        <video controls autoplay muted playsinline preload="metadata" poster="./demo/standard-mode-full-20260602.png">
-          <source src="./demo/yanshi.mov" type="video/quicktime" />
-        </video>
+      <section>
+        <h2>安装</h2>
+        <ol>
+          <li>下载 DMG 或 TAR.GZ</li>
+          <li>如果是 DMG，打开后将 <code>Aigeon.app</code> 拖到 <code>Applications</code></li>
+          <li>如果是 TAR.GZ，解压后将 <code>Aigeon.app</code> 移动到 <code>Applications</code></li>
+        </ol>
       </section>
 
-      <section class="card">
-        <h2>截图</h2>
-        <div class="grid">
-          <div>
-            <h3>标准模式</h3>
-            <img src="./demo/standard-mode-full-20260602.png" alt="标准模式截图" />
-          </div>
-          <div>
-            <h3>简单模式</h3>
-            <img src="./demo/simple-mode-full-20260602.png" alt="简单模式截图" />
-          </div>
-        </div>
+      <section>
+        <h2>使用</h2>
+        <ol>
+          <li>启动 <code>Aigeon.app</code></li>
+          <li>在悬浮条查看当前任务状态</li>
+          <li>单击悬浮条打开任务列表</li>
+          <li>单击任务行跳回对应终端窗口</li>
+          <li>双击悬浮条切换标准模式和简单模式</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>首次打开被拦截</h2>
+        <ul>
+          <li>当前版本没有签名，也没有 notarization</li>
+          <li>如果被拦截，到 <code>系统设置 &gt; 隐私与安全性</code> 里允许应用后再重新打开</li>
+        </ul>
       </section>
     </main>
   </body>

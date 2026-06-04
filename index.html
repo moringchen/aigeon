@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aigeon Demo</title>
+    <title>Aigeon Download</title>
     <style>
       :root {
         color-scheme: light;
-        --bg: #f5f7fb;
+        --bg: #f4f6fb;
         --card: #ffffff;
-        --text: #172033;
-        --muted: #5f6c89;
-        --line: #d9e0ee;
-        --accent: #275df5;
+        --text: #182033;
+        --muted: #5b6782;
+        --line: #d7deeb;
+        --accent: #2456e6;
       }
 
       * {
@@ -22,53 +22,30 @@
       body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        background: linear-gradient(180deg, #eef3ff 0%, var(--bg) 100%);
+        background: linear-gradient(180deg, #edf2ff 0%, var(--bg) 100%);
         color: var(--text);
       }
 
-      .page {
-        max-width: 960px;
+      main {
+        max-width: 760px;
         margin: 0 auto;
         padding: 40px 20px 64px;
       }
 
-      .hero,
-      .card {
+      section {
         background: var(--card);
         border: 1px solid var(--line);
         border-radius: 20px;
-        box-shadow: 0 18px 50px rgba(28, 42, 78, 0.08);
-      }
-
-      .hero {
+        box-shadow: 0 18px 48px rgba(28, 42, 78, 0.08);
         padding: 28px;
-        margin-bottom: 24px;
-      }
-
-      .card {
-        padding: 24px;
         margin-bottom: 20px;
       }
 
       h1,
       h2,
-      h3,
-      p {
-        margin-top: 0;
-      }
-
-      h1 {
-        font-size: 34px;
-        margin-bottom: 10px;
-      }
-
-      h2 {
-        font-size: 24px;
-        margin-bottom: 14px;
-      }
-
       p,
       li {
+        margin-top: 0;
         line-height: 1.6;
       }
 
@@ -80,7 +57,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 12px;
-        margin-top: 18px;
+        margin: 20px 0 8px;
       }
 
       .button {
@@ -90,7 +67,7 @@
         padding: 10px 16px;
         border-radius: 999px;
         border: 1px solid var(--accent);
-        color: white;
+        color: #fff;
         background: var(--accent);
         text-decoration: none;
         font-weight: 600;
@@ -101,70 +78,52 @@
         background: transparent;
       }
 
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 18px;
-      }
-
-      img,
-      video {
-        display: block;
-        width: 100%;
-        height: auto;
-        border-radius: 16px;
-        border: 1px solid var(--line);
-        background: #dde6fb;
-      }
-
+      ol,
       ul {
         padding-left: 20px;
         margin-bottom: 0;
       }
-
-      .lang {
-        margin-top: 14px;
-      }
     </style>
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
+    <main>
+      <section>
         <h1>Aigeon</h1>
-        <p class="muted">
-          A lightweight macOS overlay for monitoring active Claude Code and Codex tasks, with a
-          stable in-page demo video player.
-        </p>
-        <p class="muted">Author: <strong>MoringChen</strong></p>
+        <p class="muted">A macOS overlay for watching active Claude Code and Codex task status.</p>
         <div class="links">
           <a class="button" href="./Aigeon_0.1.0_x64.dmg" download="Aigeon_0.1.0_x64.dmg">Download DMG</a>
           <a class="button secondary" href="./Aigeon_0.1.0_x64.tar.gz" download="Aigeon_0.1.0_x64.tar.gz">Download TAR.GZ</a>
-          <a class="button secondary" href="./README.md">Open README</a>
+          <a class="button secondary" href="./README.md">Usage Guide</a>
         </div>
-        <p class="lang">
-          Chinese: <a href="./index.zh-CN.html">index.zh-CN.html</a>
-        </p>
+        <p class="muted">Chinese: <a href="./index.zh-CN.html">index.zh-CN.html</a></p>
       </section>
 
-      <section class="card">
-        <h2>Demo Video</h2>
-        <video controls autoplay muted playsinline preload="metadata" poster="./demo/standard-mode-full-20260602.png">
-          <source src="./demo/yanshi.mov" type="video/quicktime" />
-        </video>
+      <section>
+        <h2>Install</h2>
+        <ol>
+          <li>Download the DMG or TAR.GZ package</li>
+          <li>If you use the DMG, open it and drag <code>Aigeon.app</code> into <code>Applications</code></li>
+          <li>If you use the TAR.GZ, extract it and move <code>Aigeon.app</code> into <code>Applications</code></li>
+        </ol>
       </section>
 
-      <section class="card">
-        <h2>Screenshots</h2>
-        <div class="grid">
-          <div>
-            <h3>Standard Mode</h3>
-            <img src="./demo/standard-mode-full-20260602.png" alt="Standard mode screenshot" />
-          </div>
-          <div>
-            <h3>Simple Mode</h3>
-            <img src="./demo/simple-mode-full-20260602.png" alt="Simple mode screenshot" />
-          </div>
-        </div>
+      <section>
+        <h2>Usage</h2>
+        <ol>
+          <li>Launch <code>Aigeon.app</code></li>
+          <li>Watch the current task status in the overlay</li>
+          <li>Click the overlay to open the task list</li>
+          <li>Click a task row to jump back to the matching terminal window</li>
+          <li>Double-click the overlay to switch between Standard Mode and Simple Mode</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>First Launch Warning</h2>
+        <ul>
+          <li>This build is unsigned and not notarized</li>
+          <li>If macOS blocks it, allow the app in <code>System Settings &gt; Privacy &amp; Security</code> and relaunch it</li>
+        </ul>
       </section>
     </main>
   </body>
